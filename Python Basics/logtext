@@ -1,0 +1,922 @@
+Using server: <KSOmahaServer:0x100269a90
+		engine=<KSUpdateEngine:0x100330b60>
+	>
+Feb 21 07:52:06 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:52:06.630 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Feb 21 07:52:10 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 07:52:10 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imtranscoding.IMTranscoderAgent) <Warning>: Unknown key for integer: _DirtyJetsamPriority
+Feb 21 07:52:10 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imtranscoding.IMTranscoderAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 07:52:10 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imdmessageservices.IMDMessageServicesAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 07:52:13 squalors-MacBook com.apple.xpc.launchd[1] (com.valvesoftware.steamclean) <Notice>: Service only ran for 33 seconds. Pushing respawn out by 27 seconds.
+Feb 21 07:52:58 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[556]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 07:53:06 squalors-MacBook Google Chrome[492] <Notice>: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Feb 21 07:53:23 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:23.272 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Android File Transfer.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.android.mtpviewer")'
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.022 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x100286940
+		server=<KSOmahaServer:0x100269a90>
+		url="https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:2214841497
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.7.43" ismachine="0" requestid="{181E1ABB-91F7-4DC0-BA09-58B904105F43}" dedup="cr" sessionid="{39E78D69-611C-4D54-9EAF-274C69451084}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.3_i486"></os>
+			    <app appid="com.google.Chrome" version="56.0.2924.87" cohort="1:1y5:" cohortname="Stable" lang="en-us" installage="345" installdate="3486" brand="GGRO" _numaccounts="1" _numsignedin="1" signed="1">
+			        <ping r="1" rd="3703" a="1" ping_freshness="{B2D1CFFE-EDF5-4A9D-9562-63EC91104ADD}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.android.mtpviewer" version="1.0.50.2266" lang="en-us" installage="321" installdate="3500" brand="GGLG" signed="1">
+			        <ping r="1" rd="3703" ping_freshness="{BEA12254-6294-481B-959D-1D54136D73A8}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.023 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890"
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.025 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/squalor/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 565
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.031 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher sending both request and download file location to the helper.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.034 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] KSSendAllDataToHelper() KSHelperTool wrote 2344 bytes to the helper input.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.034 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] Closing the file handle.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.034 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890"
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.123 ksfetch[565/0x7fffa8ce43c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2344 bytes from stdin.
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.131 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100121730> { URL: https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890 }
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.132 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.YsONDi2tEK/download
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.133 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100121730> { URL: https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890 }) to folder:/tmp/KSOutOfProcessFetcher.YsONDi2tEK/download
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.134 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() Setting up download file handles...
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.502 ksfetch[565/0x7fffa8ce43c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.502 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() ksfetch done fetching.
+Feb 21 07:53:26 squalors-MacBook ksfetch[565] <Notice>: 2017-02-21 07:53:26.624 ksfetch[565/0x7fffa8ce43c0] [lvl=2] main() Fetcher is exiting.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.629 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890"
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.631 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x104f0b040
+		server=<KSOmahaServer:0x100269a90>
+		url="https://tools.google.com/service/update2?cup2hreq=0524c68157f90aca1b63f2ecb4a89bfeb2f539142868f41832ef0d1b76a6a4fb&cup2key=6:3454449890"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3704" elapsed_seconds="24806"></daystart>
+			    <app appid="com.google.Chrome" cohort="1:1y5:" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			    <app appid="com.google.android.mtpviewer" cohort="" cohortname="" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.633 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.667 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.670 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.670 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.671 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.671 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Feb 21 07:53:26 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:26.671 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Feb 21 07:53:27 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:27.092 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100330b60
+		ticketStore=<KSPersistentTicketStore:0x1003326f0 store=<KSKeyedPersistentStore:0x1003326a0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x100260850
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1003f3020
+			delegate=<KSUpdateEngine:0x100330b60>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSAgentApp: 0x10023b290>
+		serverInfoStore=<KSServerPrivateInfoStore:0x100330310 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 07:53:27 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 07:53:28 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:28.322 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x10027b4e0> { URL: https://tools.google.com/service/update2 }
+Feb 21 07:53:28 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:28.443 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x10023bce0 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+	    checks = 2;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Feb 21 07:53:29 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:29.680 GoogleSoftwareUpdateAgent[417/0x7000090ea000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Finished with engine thread
+Feb 21 07:53:30 squalors-MacBook GoogleSoftwareUpdateAgent[417] <Notice>: 2017-02-21 07:53:30.044 GoogleSoftwareUpdateAgent[417/0x7fffa8ce43c0] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+Feb 21 07:53:39 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+--- last message repeated 1 time ---
+Feb 21 07:54:03 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.587) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 07:54:10 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.587) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/DFRSupportKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext got 827 UUIDs and 7 slibs from inflight and persistent logs
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 00000000-0000-0000-0000-000000000000
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 3A7621C8-EE83-3260-9785-0FAD27397D47
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 3F99E7F6-7E76-3DC9-AD78-2332EC6868A1
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 610686A1-123B-32F2-93AF-480D5D888E1B
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 689948B7-00ED-3206-B93A-723C78026D2B
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 86DA413C-FAD4-391B-B7CB-78B946298E90
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext processing shared lib uuid 8B3F527D-4C86-3481-B64F-2917A09408F0
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext got 1969 UUIDs and 7 slibs from inflight and persistent logs and slibs
+Feb 21 07:54:16 squalors-MacBook logd[68] <Notice>: _purge_uuidtext uuidtext file for 00000000-0000-0000-0000-000000000000 mentioned but not found
+Feb 21 07:54:18 squalors-MacBook logd[68] <Notice>: _purge_uuidtext uuidtext file for 090BD8B0-05A1-3848-861A-90579CC70F20 mentioned but not found
+Feb 21 07:54:24 squalors-MacBook logd[68] <Notice>: _purge_uuidtext uuidtext file for 2A128386-C535-4026-B9D7-E91D3360CEF4 mentioned but not found
+Feb 21 07:54:47 squalors-MacBook Google Chrome[492] <Error>: assertion failed: 16D32: libxpc.dylib + 74307 [65E41BB6-EBD5-3D93-B0BE-B190CEE4DD93]: 0x89
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext tree walked
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/00/98FEFBFA85316CA61B9811E6E27CEF
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/01/62A103977B3D87A16192C63344A912
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/01/C3E5DECB7336419385855F0D4A76CB
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/02/93F79A75563374941FC835FC0FE892
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/03/E0AA4694D63365B00FC693808F76EE
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/04/9FC2609E4C3B188D4A517E0ACD18B7
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/06/85658F21AE31D98C9AB92528CDFB59
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/06/BEDF5860B63694A24D4E940A624DD5
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/07/255710F4433F8ABFEDF79781B178FE
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/07/538FEA2CAA30048B9F53469AF2A333
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/07/844223B11935E1AB9468F17809F924
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/08/098580C90A3C1CBC6DF25E54F648B2
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/08/0E1C9B4DE93F59924D2B65BF76DEE5
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/09/61F80AE9BD34A58ABB1640CC7978A9
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/09/9C45EF8DF3369D8856D2883499BC79
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/09/A6D21D7E003B98AB66A5EDFD5917DB
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0A/007C1C933B3759838FF43758AC83DB
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0A/05A5FB470E3FEBBEFEE6AC00344093
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0B/D971E698623B5088B867950B7CDE85
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0C/5C6953C8EB3D1D947CF0D6EAA16343
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0C/7528C28FDF3DD39F6F98F43B540C94
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0E/A1990677E638A6A4B7FCD42AB3C78E
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0E/E5C7427DF33DA08C52992AFECCD3A6
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/0F/A547143A553C149F734F11B6B70124
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/10/77E27912E535068BECCAE79FA84C7E
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/10/EB3FF6DE983DB08EE648619A2BB939
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/11/574924C60F3EA59BDFDDF3CD493D51
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/17/C1DCAE55AA3FD882830235BCC40F8F
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/18/24792351593303A278517671873C87
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/19/9506F3314C34E2AE8F6167F6DD44B9
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/19/D663E354173598AEB35D8F40FDB41A
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/1A/029C0D6A88305BB8D4E782BCA826EB
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/1C/13B98DCF4D32899CEE3E08563F2824
+Feb 21 07:55:08 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/1E/4C8DD880293D748F101090771DDDBE
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/1F/19B6DEC0E134128C8E5C29A993DD16
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/1F/F1AD9EA62A3F298B0012E59B273C57
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/20/34B1E056973B4D82B0205BD9C8C177
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/20/FF34EDB86330139AF0E9DD7E105033
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/21/1E0521FDD83FFB80DA72E37F6BDC63
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/21/E3090E2615334EA2CDBD219361F4BD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/24/162D6EBD97349F9620CAC918A33146
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/27/2069B595FF396F82ED8A2DE2D2D711
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/28/42D82C33C8323882575CBDB5696FA6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/28/7E8AF802D33B02893C26DDAADE107D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/28/8DB1BC3A8338488E995B9FDBE45D6C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/29/37E274281537D586901189DB27CE9F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/2A/36DF4FCC9431FC9CE10B0BC401C8C2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/2C/5136678E223E518FC8EE3BF5218E53
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/2C/7E492F24D53A15A798426BCECA0151
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/30/02F903124036EEA3CE3360523733FC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/30/88A9179BE6375AB8CE7E8CDE61501D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/31/075ABB489436099D0C44BA1F1E4280
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/33/CCC31CE40C31AF8C663DD91B317BAC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/33/F8F2BB437A3CAC88F51D14C20D0490
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/33/FD1636162230A0A42ACCC770FF53E6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/34/8B308BF1D63EBBA560CBDCED04F62E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/37/36854E82E13626A3580BC8E53D2597
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/39/43A9D3C8763A7D8DC08A021812855C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3A/62165CA27779936BAEC6F75A5BB26C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3B/FFBB5E8A663200B202B7DAA6E4ABFF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3D/9822EE2FBA3F83A46939D2A7E0C61B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3E/9DD5B1C0333E88A135A8B485C21257
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3F/43AF2A80E731259FC8DFE61E742378
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/3F/E9B7575A093D88819CCFEFB494F93C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/40/87EB81C7623CD7A05E12D8C7BCD452
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/41/2E195B7AB7348BA6C7F053E850E4F0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/41/3BB60BDC1B3D80B3082F84189C4263
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/42/3725AAB82D34548C538BD345A101CA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/42/6BFEFA382C39BD9C61D0C3534AF8F2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/42/D2DE4D9C4A32679704D447D79F7295
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/42/FCC6A5746036DE8958E0601AFCB45E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/43/B0FB39FDE43B04B86066C0692E7307
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/44/4F92B129D43DC29BE9C095C7B398C5
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/46/98018B2FEC3F9981BB82DF6EA5090D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/46/9FD49F8AF4308588887BED749966C8
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/47/62FD08BD48386C9C520FDEC609412A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/47/9F82C062F332ADB62A1F97EC55649D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/48/DDE88BFD513F45979AE2B7534A65CA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4A/0564AAA76072AE9B0F6406EEFEC032
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4A/879E8200FC31AFA12F4BD1A744B8DB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4B/53879DE2A33DFF9D60EEA9B918D741
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4B/805A76376E345BA0BF8EB026DE1C66
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4C/72BBD26E2D323FB57862FDABA5D8FF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4D/9733BEDFC3310CB744CB05E1E1A43B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/4F/328589A45E37CBBD4B4492577A7FF3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/51/0A3F99430230EA836BC90B2B2AA245
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/53/E5B4A3EDF730E5889E939E80CEB67F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/56/E7E9B8FB233C90ACF89CDA6FF6E976
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/57/1953EF485D39F18CC2151DE5BB0444
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/57/205C3FC9A9335F8AE9DDB7E6EDB102
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/57/4FA4A4677339F3B11FAAEB95686B38
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/57/A703606DFE31BFBEF97A1097923314
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5A/89BB54782C3EF7938ED1EC5C5E7BA4
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5B/45A12A48E13E4CA4504AB8674BA962
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5C/9B0A0634E73CA9AFD3CF95C5BDCC6E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5E/C0E7AD020D31E0B8ED997EEB48EE37
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5E/EFACBE091D30E6A093A873CBFB2B56
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5E/F7315AF27B31A6A38D6364704D4FFC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/5F/2253E15B6030868D2E9F55C34324DD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/60/BDCD0883D33C739B975A119F46F677
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/61/35866B83A7362791D49DF07FCBB4F7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/61/C10E23C37F30239A57585C34784AA4
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/61/C3FD48E5D3349A81C36967BC9597DB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/62/1003B1C0163229B5919EE94EA5A40D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/62/196B2A409236898AAD3A1520C53191
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/62/38692B964C3E81921DF8FF1EE004F9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/62/A612F1581A3EE49351AA2D16CB0FFF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/62/C99811803C36039CE8D60CE29CBEA5
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/63/08C065894D3CBBBA25584EC13C766E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/64/907EF463283E81B00EB6BA03A23925
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/64/AE1EA5F5313EE398FBF60522A001A7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/65/5A74B8A471369D9F111E423500AE4B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/65/F188EC65AE3CEDAD20EBE1B4CA1416
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/66/64025EFDD33FFC8FAF19B9E71D20AF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/67/CA40C5753939B1BB78432A23F6CE56
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/68/07EF340BC93AB18686CD52098FD661
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/69/B65AD8E7F0362DA3593712F86D6AF6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/6B/5423E05C283736A72DF400C46C1160
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/6C/8859A3E33B32AE861C37CF5CA61D09
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/6D/920926718536B0A929DA71DB4BBA44
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/70/436ABF2BD83098A827E0944EBCA7EB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/70/90F6F8C50D344B89DEB7F3EB920103
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/70/AF01AA40563938811E4E12D3CF910C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/28A83612133D8298BBDCA4A84B8106
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/431406FCD43CB8BED4F10140E928E2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/7FEFEC8E44339897DDD00444D33D7B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/E61255F3A037A6BC3517724FD2C4BE
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/FAB04304FF3C258B7BAC3E47729E11
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/72/FB1BBBCA3E30E89802A68B8B2B07F1
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/74/754119419232ACBC95EBEBF96F30C2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/74/B38570F45236D0AEC892BD3FEFFE54
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/75/42F19037A43B6980F9E0C199EB30FA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/75/BF82E991453FAEB6EAD1F2B25CB9B6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/75/D2ABCC609A36DB91CF93670B475D1D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/76/14E808125237398ACA972AA17BAE26
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/76/1F562905703DBDBB2FF22A5C273E02
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/77/0EBAAA665C39BE99C514780E4D317C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/77/491AAEA71737B99F216CE96A0C7B81
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/77/8ADE4305F03B659D87147B5336C7EB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/79/C7554B18D2350FA72C0ED0411A98F0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7A/2F2806BF013801990B2AE13AE81E71
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7A/B332032599353CBA993A0D35B31F53
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7B/A333BDD3FA393E8EBACB2231DCC413
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7B/C9C77A2DEF3CC49EF575984365A6DB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7C/2B56B1C6D83A2DB86318E5E34AFB7A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7C/5803A3E004379ABE2CC692B460C0AB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7C/70633894A830E89E88E365E6C5CDDC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7D/0934DDD62C571E0D0BB5291F63146E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/7E/33435F255C33FEB759E8440563B141
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/80/A4ABCCCFA637959CD4E457B6170356
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/81/9C0A6297C83F2087CE46456FC8650A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/81/CABFD8B8F6387CB69427385ECA0C7F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/83/07D14F60E13C2D9E2872B307D806FF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/83/5FF5E7FCE13B018196628515A7C4B8
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/83/DBF23B644A38E99F336D78814FED8B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/84/5E823019FD3F22A99FD9ED3CE12687
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/85/47EFEFCB74337A88665C49F7840166
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/86/077007137D35588C197CC07EE4492E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/86/7D3C5AE6B132C98E49A0ACDCFA1CAB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/87/8FED393EA13336801F9CAC261CC1F0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/88/52A8B7EBE43F078DE2EACFE4CF546B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/89/754F5622C832A08EE4B4E77C5F6C30
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/89/EAD7E54783388298E75AE34D4DE984
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8A/C6CFEB019509E48D2EA2768DE04B6D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8B/02D3C04C5B37E1A894E755C458A2B0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8B/0EAD42C3183ED3AE5818520AFA32A8
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8C/03A943EF9230CC89630A07225509E9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8E/709989AB4D36CB993323A6EBD1B636
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8E/8D6FE40B733F21BBA61D4D74F9E709
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/8F/B24E494F7C3AEFAB2C22365F47A228
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/92/0F786796FA318AB0A2CE29A9735564
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/92/123E86A12D333EAC154300CF450A5F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/92/A4E40A8B833F5FB5F862587FE2EE4C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/93/69374F45BF34AFAD1045E18F0A4916
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/94/183CD8F1D835938064BB167AD73197
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/95/46AAD39AE638C2BCEE5FFCE64D95DC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/96/F1AA69F4ED3E269A692E4A55F7CE44
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/97/596F8F4E3034E0858B5B84F881AFB0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/98/BCECDF57A231A2B23DA2C50148DBE6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/98/DD2C744B55313D8F8EA9E4C8F16951
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/99/8F37BCD7FC3D05A24C146969D6302A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/99/A51BBB8F203D96A1B6DB6D9A4464CF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9A/26DA6C3FF133718B05708AFCA9E6A5
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9A/C99CEB549135C7A2E6E5FA8C7A50A4
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9B/29698D2E4A3A13803DD8C347EA5B0F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9B/42CA7D6B023419A62F42F575E18940
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9B/BE7704B31031C785F6BA033714B482
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9C/98943BCCEB31FCAC375F58B7566EAD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9C/BA56B084A1394ABD3BB6909E607BF6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/9F/313ACCDDDF3B5F9A6DB1EED086BD32
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A0/9BDB56A54637FD967E957F0DB79C02
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A1/54A092C89C3918B8B9A52B973FEAF2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A1/84389751363AA6B9DBCB0A621C1764
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A2/15A4AD7396303EAA8E06D1B169A374
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A5/55C31CDA4D30C28883A92B70E1CEB3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A5/CE8D9369EE3234A0AB43A7945AE986
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A6/82985466973194908141C6916F73CE
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A7/425FB138FF3CEFB9BBB0120F681DB0
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A7/CC182719D0357199B62D86DF57D61B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A8/21AF672ECC347E87C5EFBE527B363A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A8/80C752B0CE33468ED8A6D76A3065D4
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/A9/DC90DC4F4838C79CAF8381B43EB58F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AA/4387CE13AB319CBBC36676FCEAE24F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AA/60CC2D186437878CDFE8EE712A6E6C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AD/4ADF669701337E8177E0E13E82DC0B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AD/4D36B9E41E3751883695F84EA4F118
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AE/BC239ADCC439698DBED494315505A7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AF/660EF70D563FDA8D222F8795B15D31
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/AF/B68EC7205B3499B796DAE93A4BA543
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B0/056AFB414136BA8E87661C081D08B7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B0/A5F99C93643B18B9DF1A572AD30B84
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B0/CBCE87592F35D9BF23599294A16843
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B1/19F14A2F213DC0B63BFC8610D5DF9F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B2/A357258222375086230733962F4767
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B3/D22E0BC40533C4B4BA1067232580BF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B4/884482D7263807AEE4046AE085B4AA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B4/9B4CC684143C43B228A3CA1221266A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B5/B1BFA8E7883D8D9CA3F54658F882AD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B7/4BAECE566230E8A02C8121995DBB5F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B8/4BE540B18435B2ACC5569F6326397C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B8/F66D5E8D543F418AF63A6841F32212
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B9/6D2FDEB3F23AD4A14F9E04E4F5D82A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/B9/A0C9F205FC3CC3B60C35627AFBB080
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/BA/B871D5C92132098FCCBC1E6B744274
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/BA/F32013D8FA3FB59C1E87A2DA92D64B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/BE/2E0733CC903A7B9E4D10E70E3FEF2F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/BF/D631B5C1A437E19D2D532A639BBEDB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C0/464AD03C203DBAA2368B2DA1C9DDBF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C0/D8D9C5C1D83130AA598E5D5557AFB2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C0/D8EECAD382362CBF0B39885644F537
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C0/F74FE391B839B2B25733BC87FC2611
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C2/17659004D33050BE6A539A4CAEF0CA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C3/2EDC2F6E343F03B1929DAD060FED4A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C3/5BED09063131F891C4EC5994CC4FAF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C3/7EB8F7E15D3081B58DF17690CF0744
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C4/A200FE50DF308998446875F46C938D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C4/A87E36AE363CB182F885D1C6E3FB86
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C5/AC0D245370324DB098461BE8AE8CE1
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C6/D53A46F6A73F389B8537337B82299D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C7/2FCF4902763F6BAC93F66FA64A6B24
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C9/17C064F3903260A7DC304FABDDC3FD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/C9/1EFADDB8693908AC2EB4BDA9EA81B9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CA/0EC23F10DF2D50A4613B33A5C99D03
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CA/F2A966C77B3339AA8D2626E7A8894C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CC/4EDB5C3A93398DA69B398013357450
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CC/ADB69633853EA5B8A7105F88B911CB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CD/8704D7DCB43CF198EEDAA9F4B8A69A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CE/18BCA427E33188AA5BEF68F2AA6328
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CF/5AD0AD6F4E3BAD88E6868214FA3F1D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/CF/892E3A248537E9B251C2C9CFF7D2DD
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D0/110D26B816332D8F6696C73D867AF8
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D0/A72BFDC87A3CB8A2DAF53D287F2D6B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D0/D9DC26EB353D8099BFC5681AF350FF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D1/187AC4A65338DBA92DE9FB1DD26F13
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D1/22F288035236ADAF1FCD1E45DE3270
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D3/988335832C32E4808A9E0B941E8C73
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/041306176B3F7EAA61EF6602094117
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/5B862202B034C98AE6A2910798DFB7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/93E1D7817C362EB48481BEFF0C258C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/A77E0C4D89379E9270ED34745ACAB8
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/B18253460F363CA5082746E8F65153
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D4/D873207F1339C09E8AA78D3C558778
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D5/0049E95591343ABA31C725ED5C5D2B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D6/20048CFDCD3EFC9BBCF61C5AEB585E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D6/3A8DDEFD8633658D648F4F5CB5BC0C
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D7/81934B4F57341DB89BB3F0F3B87CF3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D8/0D0E0C3B0A3583A4A7D2634C3330CC
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/D8/6FB4E7522238288EA2A821F86F03E2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DA/1CA7927C223F41B64E4E01C8679031
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DA/366A4F7F9F3310962027A7D2914307
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DA/F08CAF277637B0A817CA8381A6E7F3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DB/166BB20A5B35818DC569344808E862
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DD/A75C5805C3372DB6FE5EDBF4F17B42
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/DE/AB721D35AF3E3388C71A245086E114
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E0/59BCEE11E13CFF8AB3E69406D4ED67
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E1/9B21A0B68430829DF670336C9E76E4
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E3/1558FB0B6031EFB681EBBF7FE5CA62
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E5/90D10F622D3FF3A6F054F9D84FBF3B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E8/56C164AE1038538B6B5F586FF77724
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E8/98802644553B288A6E1403753D9FC1
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E9/27E83DF12C36109729597526D22289
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E9/4EDA85CAD33D638F8A1D6560CADA34
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/E9/6848DF02213D53906103AEC917FC24
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/EA/EF8E00CCE037E9A9F9512DC37EF089
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/EB/0DFB462C543144813D9E00015E2EB6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/EC/F2707E789B32CE97A6CF52845FD33E
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/ED/05B17820473C95B1B2BCBE207005A3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/ED/53EAF25D9A339CA434EB44665899C7
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/ED/76EA7B0DB53D08A967AFE479B373CA
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F0/E380D0251F3E088F06B61D427A48DF
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F1/60D699B04A37C6BDF68259D2027019
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F1/924686DAE834C49A1D96E7615FBAD9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F2/77B1302890379086D8384AE9680236
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F3/21B86CBF9D3DE781F52A8C043C2D02
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F3/4863C45B513320B23E757269387FC6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F3/503332F0B835E0A607EF0EDA714ACB
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F3/5237DDA68437E5B08E6DC5A04AFFA5
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F3/A5ADF894A23F57B9781DB88425FA3B
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F4/608F00730E3D87A2079C4A4CA8F6D6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F6/01F6E39CDC3B5F8A85ED16EA037FE3
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F6/F2BAE752C63ACFA8D1037EB2765DD5
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F7/6C19761BA630DE9A407754669DCBE2
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F8/C19EF703A433E6A938C9A0D446C7B9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/F9/639A1AEF1E3FBB8D26C6C56EFF5C7D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FA/631B398678372DB320FD2DAD848DD6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FA/F6AE23D1403637AC0FF8C655E9754D
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FD/1A6F210A8730DA9F5EE8648B9952E6
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FD/51BBC0AA663070931AFBA326D656BE
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FD/8B68A53B6A3E27A9B1DB7998C7393A
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FE/2F285E0FF83018BEABBE136CA4454F
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FF/8DF285E0EF33B5986B66879BBC1581
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext unlinking /var/db/uuidtext/FF/99AEF5FB9E39CEB296EC599E534FC9
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext total: 2330, in_use:1959, marked:0, recent:59, deleted 312
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext slib tree cleaned up (0)
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext uuid tree cleaned up (7)
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: _purge_uuidtext cleaned up (0)
+Feb 21 07:55:09 squalors-MacBook logd[68] <Notice>: Purged 61254141 bytes from uuidtext.
+Feb 21 07:55:28 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 07:55:38 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.mdworker.single.04000000-0000-0000-0000-000000000000) <Notice>: Service only ran for 1 seconds. Pushing respawn out by 9 seconds.
+Feb 21 07:55:38 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.mdworker.single.08000000-0000-0000-0000-000000000000) <Notice>: Service only ran for 8 seconds. Pushing respawn out by 2 seconds.
+Feb 21 07:55:38 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 18 times ---
+Feb 21 07:58:39 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 07:58:40 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.706) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 07:58:41 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.706) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/DFRSupportKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 07:58:49 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 7 times ---
+Feb 21 07:59:59 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 08:00:09 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 40 times ---
+Feb 21 08:06:55 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[783]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:07:01 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 18 times ---
+Feb 21 08:10:02 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 08:10:12 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 5 times ---
+Feb 21 08:11:06 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[812]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:11:12 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 24 times ---
+Feb 21 08:15:17 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[851]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:15:23 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 24 times ---
+Feb 21 08:19:28 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[890]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:19:34 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 3 times ---
+Feb 21 08:20:04 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 08:20:14 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 08:20:26 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 08:20:28 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 08:20:31 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.PubSub.Agent[897]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.pubsub.ipc
+Feb 21 08:20:31 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.PubSub.Agent[897]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.pubsub.notification
+Feb 21 08:20:34 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 3 times ---
+Feb 21 08:21:29 squalors-MacBook eospreflightagent[902] <Error>: objc[902]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x10ab5fad8). One of the two will be used. Which one is undefined.
+Feb 21 08:21:29 squalors-MacBook eospreflightagent[902] <Error>: objc[902]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x10aac4de8). One of the two will be used. Which one is undefined.
+Feb 21 08:21:39 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 08:21:55 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 08:21:59 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 9 times ---
+Feb 21 08:23:39 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[936]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:23:40 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 16 times ---
+Feb 21 08:26:25 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 08:26:25 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.962) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 08:26:26 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.962) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/DFRSupportKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 08:26:30 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 08:26:44 squalors-MacBook logd[68] <Notice>: Time changed, updating file headers
+Feb 21 08:26:51 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 8 times ---
+Feb 21 08:28:19 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 08:28:21 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 2 times ---
+Feb 21 08:28:44 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 08:28:46 squalors-MacBook filecoordinationd[400] <Notice>: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Feb 21 08:28:51 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 08:38:14 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 08:38:14 squalors-MacBook assistantd[410] <Notice>: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Feb 21 08:38:15 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 08:38:20 squalors-MacBook eospreflightagent[1005] <Error>: objc[1005]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x105e7dad8). One of the two will be used. Which one is undefined.
+Feb 21 08:38:20 squalors-MacBook eospreflightagent[1005] <Error>: objc[1005]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x105de3de8). One of the two will be used. Which one is undefined.
+Feb 21 08:38:25 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 6 times ---
+Feb 21 08:39:30 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1023]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:39:35 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 24 times ---
+Feb 21 08:43:41 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1076]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 08:43:46 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 19 times ---
+Feb 21 08:46:58 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 08:47:02 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.1104) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 08:47:03 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.1104) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/DFRSupportKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 08:47:07 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 7 times ---
+Feb 21 08:48:17 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 08:48:27 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 21 times ---
+Feb 21 08:52:08 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 08:52:08 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 4 times ---
+Feb 21 08:52:56 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 08:52:59 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 3 times ---
+Feb 21 19:39:33 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 19:39:34 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 1 seconds. Pushing respawn out by 9 seconds.
+Feb 21 19:39:43 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 19:39:44 squalors-MacBook eospreflightagent[1176] <Error>: objc[1176]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x104f73ad8). One of the two will be used. Which one is undefined.
+Feb 21 19:39:44 squalors-MacBook eospreflightagent[1176] <Error>: objc[1176]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x104ed9de8). One of the two will be used. Which one is undefined.
+Feb 21 19:39:53 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 19:39:57 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1185]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 19:39:59 squalors-MacBook CalNCService[378] <Notice>: BUG in libdispatch client: kevent[EVFILT_MACHPORT] monitored resource vanished before the source cancel handler was invoked
+Feb 21 19:40:01 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 19:40:03 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 19:40:10 squalors-MacBook eospreflightagent[1195] <Error>: objc[1195]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x10d2b5ad8). One of the two will be used. Which one is undefined.
+Feb 21 19:40:10 squalors-MacBook eospreflightagent[1195] <Error>: objc[1195]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x10d218de8). One of the two will be used. Which one is undefined.
+Feb 21 19:40:13 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 19:40:23 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.mdworker.single.07000000-0000-0000-0000-000000000000) <Notice>: Service only ran for 6 seconds. Pushing respawn out by 4 seconds.
+Feb 21 19:40:23 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 9 times ---
+Feb 21 19:41:56 squalors-MacBook eospreflightagent[1225] <Error>: objc[1225]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x10c4ecad8). One of the two will be used. Which one is undefined.
+Feb 21 19:41:56 squalors-MacBook eospreflightagent[1225] <Error>: objc[1225]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x10c453de8). One of the two will be used. Which one is undefined.
+Feb 21 19:42:04 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 6 times ---
+Feb 21 19:43:05 squalors-MacBook eospreflightagent[1239] <Error>: objc[1239]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x10a1a2ad8). One of the two will be used. Which one is undefined.
+Feb 21 19:43:05 squalors-MacBook eospreflightagent[1239] <Error>: objc[1239]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x10a104de8). One of the two will be used. Which one is undefined.
+Feb 21 19:43:14 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 6 times ---
+Feb 21 19:44:19 squalors-MacBook logd[68] <Notice>: Time changed, updating file headers
+Feb 21 19:44:23 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 7 times ---
+Feb 21 19:45:40 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 19:45:43 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 22:22:05 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 22:22:05 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 22:22:16 squalors-MacBook eospreflightagent[1272] <Error>: objc[1272]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x108977ad8). One of the two will be used. Which one is undefined.
+Feb 21 22:22:16 squalors-MacBook eospreflightagent[1272] <Error>: objc[1272]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x1088dede8). One of the two will be used. Which one is undefined.
+Feb 21 22:22:25 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 8 times ---
+Feb 21 22:23:52 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1364]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.150 GoogleSoftwareUpdateAgent[1365/0x7fffa8ce43c0] [lvl=2] -[KSAgentApp setupLoggerOutput] Agent settings: <KSAgentSettings:0x100328b80 bundleID=com.google.Keystone.Agent lastCheck=2017-02-21 14:53:30 +0000 checkInterval=18000.000000 uiDisplayInterval=604800.000000 sleepInterval=1800.000000 jitterInterval=900 maxRunInterval=0.000000 isConsoleUser=1 ticketStorePath=/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore runMode=3 daemonUpdateEngineBrokerServiceName=com.google.Keystone.Daemon.UpdateEngine daemonAdministrationServiceName=com.google.Keystone.Daemon.Administration logEverything=0 logBufferSize=2048 alwaysPromptForUpdates=0 productIDToUpdate=(null) lastUIDisplayed=(null) alwaysShowStatusItem=0 updateCheckTag=(null) printResults=NO userInitiated=NO>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.167 GoogleSoftwareUpdateAgent[1365/0x7fffa8ce43c0] [lvl=2] -[KSAgentApp checkForUpdates] Starting update check.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.168 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Starting engine thread
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.217 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] No functional system update engine detected. Only user tickets will be processed.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.231 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Checking with local engine: <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100343ec0
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.232 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Checking for self update with Engine: <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100343ec0
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.233 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] This process may be killed if self-update is necessary. In such cases, sub-processes may still be running to complete the self-update.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.233 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "com.google.Keystone" using engine <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x100343ec0
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.249 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateEngine updateProductID:] KSUpdateEngine updating product ID: "com.google.Keystone"
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.264 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 1 ticket(s).
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.315 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x100347cb0
+			productID=com.google.Keystone
+			version=1.2.7.43
+			xc=<KSPathExistenceChecker:0x10033c720 path=/Users/squalor/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle>
+			url=https://tools.google.com/service/update2
+			creationDate=2016-03-13 06:59:04
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x1002c3790
+		engine=<KSUpdateEngine:0x100343cd0>
+	>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.366 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Users/squalor/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/GoogleSoftwareUpdateDaemon' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Keystone")'
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.474 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1002e9ac0
+		server=<KSOmahaServer:0x1002c3790>
+		url="https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:1115091140
+		)
+		runningFetchers=0
+		tickets=1
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.7.43" ismachine="0" requestid="{C4BE537E-EBB5-4A55-8BA5-C49A955204C8}" dedup="cr" sessionid="{209CF668-8198-4F7B-B0A5-A66BAD824DDD}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.3_i486"></os>
+			    <app appid="com.google.Keystone" version="1.2.7.43" lang="en-us" installage="345" installdate="3479" brand="GGLG" signed="1">
+			        <ping rd="3704" ad="3704" ping_freshness="{CA0453AD-27EF-46B9-A41C-4BB362DDF304}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.475 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224"
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.476 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/squalor/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 1366
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.477 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher sending both request and download file location to the helper.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.478 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] KSSendAllDataToHelper() KSHelperTool wrote 1987 bytes to the helper input.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.478 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] Closing the file handle.
+Feb 21 22:23:55 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:23:55.479 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224"
+Feb 21 22:23:55 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:23:55.530 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 1987 bytes from stdin.
+Feb 21 22:23:55 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:23:55.534 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x100211840> { URL: https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224 }
+Feb 21 22:23:55 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:23:55.534 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.JEzYMZfeGq/download
+Feb 21 22:23:55 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:23:55.535 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x100211840> { URL: https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224 }) to folder:/tmp/KSOutOfProcessFetcher.JEzYMZfeGq/download
+Feb 21 22:23:55 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:23:55.536 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() Setting up download file handles...
+Feb 21 22:23:55 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 22:24:09 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:24:09.597 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Feb 21 22:24:09 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:24:09.598 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() ksfetch done fetching.
+Feb 21 22:24:09 squalors-MacBook ksfetch[1366] <Notice>: 2017-02-21 22:24:09.601 ksfetch[1366/0x7fffa8ce43c0] [lvl=2] main() Fetcher is exiting.
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.609 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224"
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.611 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x1003ba8c0
+		server=<KSOmahaServer:0x1002c3790>
+		url="https://tools.google.com/service/update2?cup2hreq=aa9127e05896bfb3778302e6cca3bfd390b785f72db72fbe91c1717b633d02f9&cup2key=6:3828755224"
+		tickets=1
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3704" elapsed_seconds="77047"></daystart>
+			    <app appid="com.google.Keystone" cohort="" cohortname="" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.612 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.661 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.663 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.664 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.664 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.664 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Feb 21 22:24:09 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:09.664 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.333 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"com.google.Keystone"' using engine <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002eb390
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSAgentApp: 0x100329cb0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.334 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp performSelfUpdateWithEngine:] Finished self update check.
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.336 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Checking for updates for "All Products" using engine <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x1002eb390
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=(null)
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.337 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.346 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSCheckAction performAction] KSCheckAction checking 2 ticket(s).
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.353 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction starting update check for ticket(s): {(
+		<KSTicket:0x1002f2460
+			productID=com.google.Chrome
+			version=56.0.2924.87
+			xc=<KSPathExistenceChecker:0x1002099b0 path=/Applications/Google Chrome.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2016-03-13 06:59:04
+			tagPath=/Applications/Google Chrome.app/Contents/Info.plist
+			tagKey=KSChannelID
+			brandPath=/Users/squalor/Library/Google/Google Chrome Brand.plist
+			brandKey=KSBrandID
+			versionPath=/Applications/Google Chrome.app/Contents/Info.plist
+			versionKey=KSVersion
+			cohort=1:1y5:
+			cohortName=Stable
+			ticketVersion=1
+		>,
+		<KSTicket:0x1002c5ba0
+			productID=com.google.android.mtpviewer
+			version=1.0.50.2266
+			xc=<KSPathExistenceChecker:0x1002c39d0 path=/Applications/Android File Transfer.app>
+			serverType=Omaha
+			url=https://tools.google.com/service/update2
+			creationDate=2016-04-05 16:09:01
+			ticketVersion=1
+		>
+	)}
+	Using server: <KSOmahaServer:0x1003c28c0
+		engine=<KSUpdateEngine:0x100343cd0>
+	>
+Feb 21 22:24:10 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:10.381 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Google Chrome.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.Chrome")'
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.792 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] +[KSCodeSigningVerification verifyBundle:applicationId:error:] KSCodeSigningVerification verifying code signing for '/Applications/Android File Transfer.app' with the requirement 'anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists and certificate leaf[subject.OU]="EQHXZ8M8AV" and (identifier="com.google.android.mtpviewer")'
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.872 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction performAction] KSUpdateCheckAction running KSServerUpdateRequest: <KSOmahaServerUpdateRequest:0x1003c6070
+		server=<KSOmahaServer:0x1003c28c0>
+		url="https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914"
+		fallbackURLs=(
+			http://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1620155543
+		)
+		runningFetchers=0
+		tickets=2
+		body=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<request protocol="3.0" version="KeystoneAgent-1.2.7.43" ismachine="0" requestid="{799128EB-BEC0-4DEA-A373-E57DC11844C5}" dedup="cr" sessionid="{209CF668-8198-4F7B-B0A5-A66BAD824DDD}">
+			    <os platform="mac" version="10.12" arch="i486" sp="10.12.3_i486"></os>
+			    <app appid="com.google.Chrome" version="56.0.2924.87" cohort="1:1y5:" cohortname="Stable" lang="en-us" installage="345" installdate="3486" brand="GGRO" _numaccounts="1" _numsignedin="1" signed="1">
+			        <ping rd="3704" ad="3703" ping_freshness="{49B0AFF4-8261-45A9-A0AB-4F972A382F03}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			    <app appid="com.google.android.mtpviewer" version="1.0.50.2266" lang="en-us" installage="322" installdate="3500" brand="GGLG" signed="1">
+			        <ping rd="3704" ping_freshness="{B1BE50AD-448E-4838-89F2-4B2219D99987}"></ping>
+			        <updatecheck></updatecheck>
+			    </app>
+			</request>
+		headers={
+			"X-GoogleUpdate-Interactivity" = bg;
+		}
+	>
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.873 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher start fetch from URL: "https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914"
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.874 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) launchedHelperTaskForToolPath:error:] KSOutOfProcessFetcher launched '/Users/squalor/Library/Google/GoogleSoftwareUpdate/GoogleSoftwareUpdate.bundle/Contents/MacOS/ksfetch' with process id: 1371
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.875 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher sending both request and download file location to the helper.
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.876 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] KSSendAllDataToHelper() KSHelperTool wrote 2336 bytes to the helper input.
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.876 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] Closing the file handle.
+Feb 21 22:24:13 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:13.876 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: "https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914"
+Feb 21 22:24:13 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:13.921 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] KSHelperReceiveAllData() KSHelperTool read 2336 bytes from stdin.
+Feb 21 22:24:13 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:13.924 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a request: <NSMutableURLRequest: 0x10030a5f0> { URL: https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914 }
+Feb 21 22:24:13 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:13.925 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() Fetcher received a download path: /tmp/KSOutOfProcessFetcher.nBXjEAm9Pp/download
+Feb 21 22:24:13 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:13.927 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() ksfetch fetching URL (<NSMutableURLRequest: 0x10030a5f0> { URL: https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914 }) to folder:/tmp/KSOutOfProcessFetcher.nBXjEAm9Pp/download
+Feb 21 22:24:13 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:13.927 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() Setting up download file handles...
+Feb 21 22:24:15 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 22:24:20 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:20.608 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] -[FetchDelegate fetcher:finishedWithData:] Fetcher downloaded successfully data of length: 0
+Feb 21 22:24:20 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:20.609 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() ksfetch done fetching.
+Feb 21 22:24:20 squalors-MacBook ksfetch[1371] <Notice>: 2017-02-21 22:24:20.613 ksfetch[1371/0x7fffa8ce43c0] [lvl=2] main() Fetcher is exiting.
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.624 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOutOfProcessFetcher(PrivateMethods) helperDidTerminate:] KSOutOfProcessFetcher fetch ended for URL: "https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914"
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.628 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction(KSServerUpdateRequestDelegate) serverRequest:fetchedWithResponse:] KSUpdateCheckAction received KSServerUpdateResponse: <KSOmahaServerUpdateResponse:0x1003ac540
+		server=<KSOmahaServer:0x1003c28c0>
+		url="https://tools.google.com/service/update2?cup2hreq=a87abc713ba38cd064dbcc56afdd7c5180913bb59534dee3089f15cce6bc0fe3&cup2key=6:1507125914"
+		tickets=2
+		status=200
+		data=
+			<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+			<response protocol="3.0" server="prod">
+			    <daystart elapsed_days="3704" elapsed_seconds="77057"></daystart>
+			    <app appid="com.google.Chrome" cohort="1:1y5:" cohortname="Stable" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			    <app appid="com.google.android.mtpviewer" cohort="" cohortname="" status="ok">
+			        <ping status="ok"></ping>
+			        <updatecheck status="noupdate"></updatecheck>
+			    </app>
+			</response>
+	>
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.634 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSOmahaServer updateInfosForUpdateResponse:updateRequest:infoStore:upToDateTickets:updatedTickets:events:errors:] Response passed CUP validation.
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.706 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateCheckAction(PrivateMethods) finishAction] KSUpdateCheckAction found updates: {( )}
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.709 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSPrefetchAction performAction] KSPrefetchAction no updates to prefetch.
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.709 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSMultiUpdateAction performAction] KSSilentUpdateAction had no updates to apply.
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.709 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSMultiUpdateAction performAction] KSPromptAction had no updates to apply.
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.710 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneDelegate) updateEngineFinishedWithErrors:] Keystone finished: errors=0
+Feb 21 22:24:20 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:20.710 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSUpdateEngine(PrivateMethods) updateFinish] KSUpdateEngine update processing complete.
+Feb 21 22:24:21 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:21.289 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp updateProductWithProductID:usingEngine:] Done checking for updates for '"All Products"' using engine <KSUpdateEngine:0x100343cd0
+		ticketStore=<KSPersistentTicketStore:0x10027cc40 store=<KSKeyedPersistentStore:0x10027d3d0
+			path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore"
+			lockFile=<KSLockFile:0x10027cfc0
+				path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/TicketStore/Keystone.ticketstore.lock"
+				locked=NO
+			>
+		>>
+		processor=<KSActionProcessor:0x10022a2d0
+			delegate=<KSUpdateEngine:0x100343cd0>
+			isProcessing=NO actionsCompleted=0 progress=0.00
+			errors=0 currentActionErrors=0
+			events=0 currentActionEvents=0
+			actionQueue=( )
+		>
+		delegate=<KSAgentApp: 0x100329cb0>
+		serverInfoStore=<KSServerPrivateInfoStore:0x100343960 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Servers">
+		errors=0
+	>
+Feb 21 22:24:25 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 22:24:27 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:27.221 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentUploader fetcher:finishedWithData:] Successfully uploaded stats to <NSMutableURLRequest: 0x1003bb090> { URL: https://tools.google.com/service/update2 }
+Feb 21 22:24:27 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:27.373 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp uploadStats:] Successfully uploaded stats <KSStatsCollection:0x100213f50 path="/Users/squalor/Library/Google/GoogleSoftwareUpdate/Stats/Keystone.stats", count=5, stats={
+	    checks = 2;
+	    tickets = 2;
+	    usertickets = 3;
+	    validtickets = 2;
+	    validusertickets = 3;
+	}>
+Feb 21 22:24:28 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:28.488 GoogleSoftwareUpdateAgent[1365/0x70000ec30000] [lvl=2] -[KSAgentApp(KeystoneThread) runKeystonesInThreadWithArg:] Finished with engine thread
+Feb 21 22:24:28 squalors-MacBook GoogleSoftwareUpdateAgent[1365] <Notice>: 2017-02-21 22:24:28.695 GoogleSoftwareUpdateAgent[1365/0x7fffa8ce43c0] [lvl=2] -[KSAgentApp checkForUpdates] Finished update check.
+Feb 21 22:24:35 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 20 times ---
+Feb 21 22:28:03 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1395]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 22:28:06 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 24 times ---
+Feb 21 22:32:08 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 22:32:18 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 8 times ---
+Feb 21 22:33:42 squalors-MacBook login[1439] <Notice>: USER_PROCESS: 1439 ttys000
+Feb 21 22:33:48 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 50 times ---
+Feb 21 22:42:10 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 22:42:20 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 40 times ---
+Feb 21 22:49:09 squalors-MacBook logd[68] <Notice>: Time changed, updating file headers
+Feb 21 22:49:11 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 13 times ---
+Feb 21 22:51:30 squalors-MacBook logd[68] <Notice>: Flushing contents to disk due to sleep event
+Feb 21 22:51:32 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 23:19:11 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 23:19:11 squalors-MacBook eospreflightagent[1582] <Error>: objc[1582]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /usr/lib/libFDR_osx.dylib (0x103943ad8). One of the two will be used. Which one is undefined.
+Feb 21 23:19:11 squalors-MacBook eospreflightagent[1582] <Error>: objc[1582]: Class AMSupportURLConnectionDelegate is implemented in both /System/Library/PrivateFrameworks/MobileDevice.framework/Versions/A/MobileDevice (0x7fffa7cce6e0) and /System/Library/PrivateFrameworks/EmbeddedOSInstall.framework/Versions/A/EmbeddedOSInstall (0x1038acde8). One of the two will be used. Which one is undefined.
+Feb 21 23:19:11 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 23:19:22 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1589]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 23:19:31 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 1 time ---
+Feb 21 23:19:42 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 23:19:52 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 22 times ---
+Feb 21 23:23:33 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1639]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 23:23:43 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 6 times ---
+Feb 21 23:24:50 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.imfoundation.IMRemoteURLConnectionAgent) <Warning>: Unknown key for integer: _DirtyJetsamMemoryLimit
+Feb 21 23:24:50 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.1650) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/SharedFrameworks/LLDB.framework/Versions/A/XPCServices/RootDebuggingXPCService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 23:24:50 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.xpc.launchd.domain.pid.IDECacheDeleteAppExtension.1650) <Error>: Path not allowed in target domain: type = pid, path = /Applications/Xcode.app/Contents/Frameworks/DFRSupportKit.framework/Versions/A/XPCServices/IDETouchBarSimulatorService.xpc error = 147: The specified service did not ship in the requestor's bundle, origin = /Applications/Xcode.app/Contents/PlugIns/IDECacheDeleteAppExtension.appex
+Feb 21 23:24:53 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 16 times ---
+Feb 21 23:27:44 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.quicklook[1674]) <Warning>: Endpoint has been activated through legacy launch(3) APIs. Please switch to XPC or bootstrap_check_in(): com.apple.quicklook
+Feb 21 23:27:44 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+--- last message repeated 9 times ---
+Feb 21 23:29:15 squalors-MacBook syslogd[51] <Notice>: ASL Sender Statistics
+Feb 21 23:29:24 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.
+Feb 21 23:29:26 squalors-MacBook logd[68] <Notice>: Time changed, updating file headers
+Feb 21 23:29:34 squalors-MacBook com.apple.xpc.launchd[1] (com.apple.nowplayingtouchui) <Notice>: Service only ran for 0 seconds. Pushing respawn out by 10 seconds.

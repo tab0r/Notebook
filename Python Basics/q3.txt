@@ -1,0 +1,7 @@
+## I have no way to test this and minimal experience with SQL, so this is a best guess
+
+SELECT Salesperson.Name, COUNT(Orders.OrderID) AS NumberOfOrders FROM (Orders
+INNER JOIN Salesperson
+ON Orders.salesperson_id=Salesperson.ID)
+GROUP BY Name
+HAVING COUNT(Orders.OrderID) > 1;
