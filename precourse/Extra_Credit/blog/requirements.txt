@@ -1,0 +1,2 @@
+blogofile
+blogofile_blog

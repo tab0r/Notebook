@@ -1,0 +1,136 @@
+SQL Assignment - Your Answers
+
+
+###############################################################################
+                    Assignment 1: Working with simple tables
+###############################################################################
+Make the database and 2 tables (Animals and Pets) with the approach you prefer.
+
+########  0. Creating and exploring tables
+
+Question 1: Creating a psql database.
+YOUR COMMAND:
+
+Question 2: Creating the tables.
+YOUR COMMAND:
+
+Question 3: Insert values in the animals table by hand.
+YOUR COMMAND:
+
+Question 4: Insert values in the pets table with copy.
+YOUR COMMAND:
+
+Answer the following using SQL.
+
+########  1. Simple queries on a single table: SELECT, FROM, WHERE, CASE clauses
+
+Question 1: Find the Appearance of the Species 'Rats'.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 2: Find the Species that are Mammals or Amphibians.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 3: Find the species that have more than 1 leg but fewer than 3.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 4: Find the species that have an Appearance starting with the letter 'F'.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 5: A long name is strictly more than 6 characters. For each pet, find out
+naif its name is long or short.
+YOUR QUERY:
+QUERY RESULTS:
+
+########  2. Build queries with aggregates (DISTINCT, COUNT, SUM, GROUP BY, HAVING, ORDER BY)
+
+Question 1: What species can be pets in Harry Potter's world?
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 2: How many pets does Ron Weasley own?
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 3: Format the output from the previous question to 'Ron Weasley has X pet(s).'
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 4: How many pets does each owner have? Format the answer as 'Owner has X pet(s)'
+and order the answer alphabetically by owner name.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 5: Which owners only have one pet?
+YOUR QUERY:
+QUERY RESULTS:
+
+########  3. Build complex queries on multiple tables: JOINs
+
+Question 1: What is the Vertebrate Class of each pet?
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 2: What is does each pet look like (Appearance and Color)?
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 3: Find the owners of male pets, give their pet's name and their Vertebrate Class?
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 4: Which owner has pets of more than one vertebrate class?
+YOUR QUERY:
+QUERY RESULTS:
+
+Question 5: Using LEFT JOIN.
+QUERY RESULTS:
+
+QUERY RESULTS:
+
+###############################################################################
+                    Assignment 2: Working with simple tables
+###############################################################################
+
+Choose a nursing home ("Facility"), and subset the data by that nursing home.
+Answer the following using SQL.
+
+Facility chosen:
+
+Question 1:  Give the count of how many censuses were reported.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 2:  Find the earliest census date.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 3:  Find the latest census date.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 4:  Find the ten census dates with the highest number of available beds for that nursing home.
+YOUR QUERY:
+QUERY RESULTS:
+
+
+Question 5:  Find the ten census dates with the lowest number of available beds for that nursing home.
+YOUR QUERY:
+QUERY RESULTS:

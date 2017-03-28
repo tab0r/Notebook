@@ -1,0 +1,7 @@
+species,vertebrate_class,appearance,num_legs
+cat,mammal,fur,4
+rat,mammal,fur,4
+owl,bird,feathers,2
+snake,reptile,dryscales,0
+toad,amphibian,smoothskin,4
+alligator,reptile,dry scales,4
