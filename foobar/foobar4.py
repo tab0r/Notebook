@@ -28,5 +28,5 @@ def answer(start, length):
 
 n = int(sys.argv[1])
 start_time = timeit.default_timer()
-answer(0,n)
+print answer(0,n)
 print(timeit.default_timer() - start_time)

@@ -40,9 +40,9 @@ def xorSeq((start, length)):
         # if none just return the XOR of the whole thing
         vals.extend([x for x in xrange(start, start+length)])
         print(vals)
-        return reduce(o.xor, vals)
+        return vals
     else:
-        return start
+        return [start]
 
 def answer(start, length):
     vals = chunks(start, length)
@@ -77,8 +77,8 @@ n = int(sys.argv[1])
 
 start_time = timeit.default_timer()
 print("xorSeq from 0 & 1:")
-print(xorSeq((0,n)))
-print(xorSeq((1,n)))
+print(reduce(o.xor, xorSeq((0,n))))
+print(reduce(o.xor, xorSeq((1,n))))
 print(timeit.default_timer() - start_time)
 
 start_time = timeit.default_timer()
